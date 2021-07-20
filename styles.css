@@ -1,0 +1,75 @@
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --babyBlue: #89CFF0;
+    --brightBlue: #0096FF;
+}
+
+body{
+	margin: 0;
+
+}
+
+.container{
+	background-color: var(--babyBlue);
+	width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.total_content_header h2,p{
+	color: black;	
+}
+
+h3{
+	color: darkblue;
+}
+
+input{
+	width: 100%;
+	padding: 1rem;
+	height: 50px;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+button{
+	padding: 0.5rem 1rem;
+	display: block;
+	font-size: 1rem;
+	border: none;
+	margin:  1rem auto 0 auto;
+	background-color: var(--brightBlue);
+	color: var(--babyBlue);
+}
+
+.total_content_cashGiven{
+	display: none;
+}
+
+.total_content_output{
+	margin: 1rem 0;
+	display: none;
+}
+
+.total_content_output table,th,td{
+	padding: 0.2rem;
+	border: 2px solid black;
+	border-collapse: collapse;
+	
+}
+
+.error{
+	display: none;
+	padding: 1rem;
+	color: black;
+	font-size: 2rem;
+}
+
+

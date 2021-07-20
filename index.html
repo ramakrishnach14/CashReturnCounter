@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Change Return Counter</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="total_content">
+			<div class="total_content_header">
+				<h2>
+					Change Return Counter
+				</h2>
+				<p>Enter the Bill Amount and Cash given to know the minimun amount of notes to return</p>
+			</div>
+			<div class="total_content_bill">
+				<h3>Bill Amount :</h3>
+				<input type="number" name="billAmount" id="billAmount">
+
+				<button id="nextBtn">Next</button>
+
+				<div class="total_content_cashGiven">
+						<h3>Cash Given :</h3>
+						<input type="number" name="cashGiven" id="cashGiven">
+						<button id="checkBtn">Check</button>
+				</div>
+
+				
+			</div>
+			<div class="error">
+				
+			</div>
+			<div class="total_content_output">
+				<table id="outputTable">
+					<tr id="notesRow">
+						<th>No of notes</th>
+						<td class="notes"></td>
+						<td class="notes"></td>
+						<td class="notes"></td>
+						<td class="notes"></td>
+						<td class="notes"></td>
+						<td class="notes"></td>
+						<td class="notes"></td>
+					</tr>
+					<tr>
+						<th>Note</th>
+						<td>2000</td>
+						<td>500</td>
+						<td>100</td>
+						<td>20</td>
+						<td>10</td>
+						<td>5</td>
+						<td>1</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./app.js">
+		
+	</script>
+
+
+</body>
+</html>
