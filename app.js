@@ -32,8 +32,8 @@ nxtBtn.addEventListener("click",()=>{
 });
 
 chkBtn.addEventListener("click",()=>{
-	billAmt = billAmtTb.value;
-	cash = cashGivenTb.value;
+	billAmt = Number(billAmtTb.value);
+	cash = Number(cashGivenTb.value);
 	console.log("bill is "+billAmt+" cash is "+cash);
 	hideError();
 	//console.log("billAmt is "+billAmt+" cash given is "+cash);
